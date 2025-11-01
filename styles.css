@@ -1,0 +1,5 @@
+
+body { background: #111; color: #fff; font-family: Arial, sans-serif; padding: 20px; }
+header { display: flex; gap: 10px; margin-bottom: 20px; }
+button { padding: 8px 12px; cursor: pointer; }
+#cart { position: fixed; right: 20px; top: 80px; background: #222; padding: 15px; border-radius: 8px; width: 250px; }

@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chatore Foods</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+<h1>Chatore Foods</h1>
+<button onclick="filterMenu('veg')">Veg</button>
+<button onclick="filterMenu('nonveg')">Non-Veg</button>
+</header>
+<main id="menu"></main>
+<div id="cart">
+<h2>Your Cart</h2>
+<ul id="cart-items"></ul>
+<p>Total: ₹<span id="total">0</span></p>
+<button onclick="downloadReceipt()">Download Receipt</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
